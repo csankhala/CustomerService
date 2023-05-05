@@ -1,3 +1,15 @@
+## Requirement(By ChatGPT)
+As a customer service representative, I want to be able to keep customers informed about their orders and provide updates in real-time, so that customers have a positive experience and are more likely to return for future purchases.
+
+Acceptance Criteria:
+
+- The customer service should subscribe to the "shipping-updates" Kafka topic to receive updates about shipments.
+- When a customer contacts customer service to inquire about the status of their order, the customer service representative should be able to quickly and easily access the customer's order information, including the current shipping status.
+- If there are any issues with the shipment, such as a delay or lost package, the customer service representative should be able to notify the customer and offer solutions such as reshipping the order or issuing a refund.
+- The customer service should be able to handle high volumes of inquiries and provide timely responses to customers.
+- If there are any changes to the shipping status, such as a delay or change in estimated delivery time, the customer service representative should be able to send a message to the customer through the "shipping-updates" Kafka topic to keep them informed.
+- The customer service should maintain a high level of customer satisfaction by providing friendly and helpful support to customers throughout the entire ordering and shipping process.
+
 ## Micronaut 3.9.1 Documentation
 
 - [User Guide](https://docs.micronaut.io/3.9.1/guide/index.html)

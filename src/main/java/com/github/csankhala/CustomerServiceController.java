@@ -1,4 +1,4 @@
-package com.github.csankhala;
+package com.github.csankhala.Main;
 
 import io.micronaut.http.annotation.*;
 

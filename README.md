@@ -1,3 +1,6 @@
+This service repo is part of below project:
+https://github.com/csankhala/ecommerce-micronaut-kafka
+
 ## Requirement(By ChatGPT)
 As a customer service representative, I want to be able to keep customers informed about their orders and provide updates in real-time, so that customers have a positive experience and are more likely to return for future purchases.
 
@@ -48,5 +51,3 @@ Acceptance Criteria:
 ## Feature http-client documentation
 
 - [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
-

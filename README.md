@@ -13,6 +13,24 @@ Acceptance Criteria:
 - If there are any changes to the shipping status, such as a delay or change in estimated delivery time, the customer service representative should be able to send a message to the customer through the "shipping-updates" Kafka topic to keep them informed.
 - The customer service should maintain a high level of customer satisfaction by providing friendly and helpful support to customers throughout the entire ordering and shipping process.
 
+## Setting up the project locally
+
+### IntelliJ setup
+The following instructions work for IntelliJ IDEA 2022.1 (Community Edition)
+
+#### Enable annotation processing
+- Go to File -> Settings -> Build, Execution, Deployment -> Compiler -> Annotation Processors
+- Check 'Enable annotation processing'
+
+#### Setup formatting
+* File -> Settings -> Editor -> General -> Ensure line feed at file end on Save
+* Install [the 'google-java-format' plugin](https://plugins.jetbrains.com/plugin/8527-google-java-format), and enable it in Settings
+* Apply [intellij-java-google-style.xml](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml) to [IntelliJ settings](https://www.jetbrains.com/help/idea/configuring-code-style.html#aadfdd2f)
+
+### Run Locally
+* Run com.github.csankhala.ecommerce.Application
+* Swagger URL: http://localhost:8080/swagger/views/swagger-ui
+
 ## Micronaut 3.9.1 Documentation
 
 - [User Guide](https://docs.micronaut.io/3.9.1/guide/index.html)

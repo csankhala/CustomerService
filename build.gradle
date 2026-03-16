@@ -12,6 +12,12 @@ repositories {
 }
 
 dependencies {
+    // Nayi Dependencies (Customer JSON data aur validation ke liye)
+    annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
+    implementation("io.micronaut.serde:micronaut-serde-jackson")
+    implementation("io.micronaut:micronaut-validation")
+
+    // Aapki Purani Dependencies
     annotationProcessor("io.micronaut:micronaut-http-validation")
     annotationProcessor("io.micronaut.openapi:micronaut-openapi")
     implementation("io.micronaut:micronaut-http-client")
@@ -25,6 +31,7 @@ dependencies {
 application {
     mainClass.set("com.github.csankhala.Application")
 }
+
 java {
     sourceCompatibility = JavaVersion.toVersion("17")
     targetCompatibility = JavaVersion.toVersion("17")
@@ -42,6 +49,3 @@ micronaut {
         sharedServer = true
     }
 }
-
-
-
